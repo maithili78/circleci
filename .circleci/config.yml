@@ -13,7 +13,7 @@ jobs:
           command: |
             echo "Testing sedstart-shinobi orb (dev)"
       - sedstart/runcloud:
-          api_key: SEDSTART_API_KEY
+          api_key: SED_API
           test_id: 74
           project_id: 18
           profile_id: 36
